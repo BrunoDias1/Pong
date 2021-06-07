@@ -42,7 +42,7 @@ export default class MainScene extends Phaser.Scene {
 
         this.scoreText = this.add.text(
             this.game.config.width * 0.5, 30,
-            "${this.score.left} - ${this.score.right}", 
+            `${this.score.left} - ${this.score.right}`, 
             {
                 fontFamily: "Arial",
                 fontSize: 48,
