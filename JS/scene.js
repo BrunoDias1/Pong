@@ -69,6 +69,6 @@ export default class MainScene extends Phaser.Scene {
         this.paddleR.update(time);
         this.ball.update(time);
 
-        this.scoreText.text = "${this.score.left} - ${this.score.right} ";
+        this.scoreText.text = `${this.score.left} - ${this.score.right}`;
     }
 }
